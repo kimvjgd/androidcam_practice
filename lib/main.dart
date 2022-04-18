@@ -1,4 +1,5 @@
-import 'package:androidcam_practice/screens/android_cam_screen.dart';
+import 'package:androidcam_practice/screens/image_from_url.dart';
+import 'package:androidcam_practice/screens/video_from_url.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AndroidCamScreen(),
+      home: ImageFromUrl(),
     );
   }
 }
